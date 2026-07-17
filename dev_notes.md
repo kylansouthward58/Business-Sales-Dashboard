@@ -63,3 +63,24 @@ Learned:
 
 Continue:
 - run tests to see if the csv file will load if it has data and review the error messages and discover what__init__.py actually does for a file
+
+## July 11
+Completed:
+- Finished the loader program and function in test_loader and loader files. Created tests to ensure the loader is loading a correct and working file into the program. 
+
+Learned:
+-  A reusable module
+- Type hints
+- Docstrings
+- Path validation
+- Exception handling
+- Custom exceptions
+- Manual testing
+- Automated tests
+- Read and interpreted a real pytest failure report
+- purpose of keeping files together in a function rather than universal and at the top
+- how (python -m) works in the terminal and how its another way of running your code rather than using the run button.
+- why its good to have several smaller projects in an overall project rather than just doing one giant thing -- easier to fix one section of code than search through a big thing to find the problem
+
+Continue:
+- start Sprint 2 which is used to clean data from a csv file and Build a reusable data cleaning module that transforms messy CSV data into a consistent, analysis-ready DataFrame.
